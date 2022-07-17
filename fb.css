@@ -1,0 +1,376 @@
+body{
+    margin: 0;
+    font-family:Helvetica Neue, Helvetica, Arial, sans-serif ;
+
+}
+.header{
+    background: #066CD2;
+    width: 100%;
+    height: 85px;
+}
+.logo{
+    width: 50%;
+    padding-top: 25px;
+    float: left;
+}
+.log-in{
+    
+    width: 50%;
+    float: left;
+    
+}
+.logo-text{
+    width: 17px;
+    height: 34px;
+    color: white;
+    font-size: 45px;
+    font-weight: bold;
+    text-decoration: none;
+    margin-left: 275px;
+    margin-top: 17px;
+    font-family:Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+.sbt{
+    width: 66px;
+    height: 25px;
+    left: 480px;
+    
+    margin-top: -5px;
+    position: absolute;
+
+    background-color: #42b72a;
+    border-color: #0c49f0;
+    color: #fff;
+    float: left;
+    cursor: pointer;
+
+}
+.PSite{
+    width: 66px;
+    height: 25px;
+    left: 555px;
+    
+    margin-top: -5px;
+    position: absolute;
+    background-color: #42b72a;
+    border-color: #0c49f0;
+    color: #fff;
+    float: left;
+    cursor: pointer;
+
+}
+
+.PSite:hover{
+    background: #066CD2;
+}
+
+.sbt:hover{
+    background: #066CD2;
+    
+}
+.login-label{
+    color: white;
+    font-size: 11px;
+
+}
+.login-controls{
+    margin-left: 160px;
+    margin-top: 10px;
+
+}
+.frgt-acc{
+    
+    font-size: 12px;
+    color:#9cb4d8;
+    cursor: pointer;
+}
+
+.bton{
+    
+    color: white;
+    background-color: #135ae7;
+    border-color: #f80bf8ea;
+    cursor: pointer;
+
+}
+
+.bton:hover{
+    background: #42b72a;
+}
+
+.left-section{
+    width: 50%;
+    float: left;
+    
+}
+
+.right-section{
+    width: 50%;
+    float: left;
+   
+}
+
+.main-body{
+    background: linear-gradient(white,#D3D8E8);
+    width: 100%;
+    height: 600px;
+}
+.recent{
+    margin-top: 145px;
+    margin-left: 300px;
+    width: 150px;
+    height: 200px;
+    background: #fff;
+    color: #1c1e21;
+    box-shadow: 0 0 0 1px #031127;
+    border-radius: 8px;
+
+    
+
+    -webkit-user-select: none;
+    
+   
+    
+    color: #385898;
+    cursor: pointer;
+    text-decoration: none;
+
+}
+
+
+a:-webkit-any-link:active {
+    color: -webkit-activelink;
+}
+
+
+a {
+    color: #385898;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+
+
+.add{
+    padding-bottom: 60px;
+    width: 150px;
+    height: -5%;
+    border-radius: 8px;
+    margin-top: 10%;
+    background: linear-gradient(white,#D3D8E8);
+    
+    text-decoration: none;
+
+    padding-top: 50px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+.add2{
+    margin-left: 25px;
+    padding-top: -50%;
+    color:#166fe5;
+    cursor: pointer;
+    text-decoration: none;
+    
+}
+.img0{
+    width: 50px;
+    height:50px;
+    background:blue;
+    margin-left: 50px;
+    border-top-left-radius: 45px;
+    border-bottom-left-radius: 45px;
+    border-bottom-right-radius: 45px;
+    border-top-right-radius: 45px;
+}
+.img1{
+    
+    width: 23px;
+    height: 22px;
+    background: blue;
+    border-top-left-radius: 20px;
+    
+}
+.img2{
+    margin-top: 5px;
+    width: 23px;
+    height: 21px;
+    background: blue;
+    border-bottom-left-radius: 20px;
+}
+.img3{
+    margin-top: -21px; 
+    margin-left: 27px;
+    
+    width: 23px;
+    height: 21px;
+    background:blue;
+    border-bottom-right-radius: 20px;
+}
+.img4{
+    margin-top: -48px;
+    margin-left: 27px;
+    width: 23px;
+    height: 22px;
+    background:blue;
+    border-top-right-radius: 20px;
+}
+.img5{
+    margin-left: 23px;
+    margin-top: -12px;
+    width: 5px;
+    height: 25px;
+    background:white;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius:20px ;
+}
+.img6{
+    margin-left: 25px;
+    margin-top: -15px;
+    
+    width: 16px;
+    height: 5px;
+    background:white;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius:20px ;
+}
+.img7{
+    margin-left: 10px;
+    margin-top: -5px;
+    
+    width: 15px;
+    height: 5px;
+    background:white;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius:20px ;
+}
+.entry-form{
+    margin-top: 100px;
+    margin-left: 100px;
+    padding-top: 15px;
+    width: 400px;
+    height: 350px;
+    background: #fff;
+    color: #1c1e21;
+    box-shadow: 0 0 0 1px #031127;
+    border-radius: 8px;
+
+    
+
+    -webkit-user-select: none;
+    
+   
+    
+    color: #385898;
+    cursor: pointer;
+    text-decoration: none;
+
+}
+
+a:-webkit-any-link:active {
+    color: -webkit-activelink;
+}
+
+
+a {
+    color: #385898;
+    cursor: pointer;
+    text-decoration: none;
+}
+.Email-phone{
+    padding-top: 10px;
+    margin-left: 18px;
+    width: 330px;
+    height: 25px;
+    background: white;
+    color: #9cb4d8;
+    box-shadow: 0 0 0 1px #d0d0d1;
+
+    font-family:  Helvetica, Arial, sans-serif;
+   
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    
+    font-size: 17px;
+    padding: 14px 16px;
+    
+}
+.Password{
+    margin-top: 20px;
+    margin-left: 18px;
+    padding-left: 15px;
+    padding-top: 10px;
+    width: 350px;
+    height: 50px;
+    
+    background:white;
+    color:#9cb4d8;
+    box-shadow: 0 0 0 1px #d0d0d1;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    font-size: 17px;
+
+
+   
+    
+
+}
+.log--in{
+
+
+    margin-top: 15px;
+    margin-left: 18px;
+    width: 365px;
+    height: 50px;
+    box-shadow: 0 0 0 1px #d0d0d1;
+    background:#166fe5 ;
+
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding-top: 2px;
+    color:white;text-align: center;
+
+}
+.frgt-acc2{
+    margin-top: 20px;
+    font-size: 15px;
+    color:white;text-align: center;
+    color:#1877f2;
+    cursor: pointer;
+
+}
+.line{
+    margin-left: 70px;
+    margin-top: 25px;
+    width: 280px;
+    height: 10px;
+    
+}
+.cna{
+    margin-left: 110px;
+    margin-top: 10px;
+
+    
+    width: 200px;
+    height: 30px;
+    
+    color:white;text-align: center;
+    background: #42b72a;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+   
+}
